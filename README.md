@@ -13,32 +13,3 @@ uGrab's mission is to address the challenges faced by students who need to buy s
 ## Tools and Frameworks:
 
 This app is developed in flutter, with firebase database integration.
-
-## How to run:
-
-## Getting Started:
-
-Have the latest version of Flutter SDK and Android Studio installed. For more setup instructions, refer to this [link](https://www.liquidweb.com/kb/how-to-install-and-configure-flutter-sdk-windows-10/).
-
-Clone repository into desired file location.
-
-For projects with Firestore integration, you must first run the following commands to ensure the project compiles:
-
-```
-flutter pub get
-flutter packages pub run build_runner build --delete-conflicting-outputs
-```
-
-This command creates the generated files that parse each Record from Firestore into a schema object.
-
-Have an emulator device open in Android Studio. For setup details, refer to this [link](https://developer.android.com/studio/run/managing-avds)
-
-Connect to emulator device on IDE. (If using Visual Studio Code, click on "chrome" on the bottom right hand corner and select emulator device)
-
-run the following command to run the app in emulator:
-
-```
-flutter run
-```
-
-Note: main source code is in lib/ directory.
